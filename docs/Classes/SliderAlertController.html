@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SliderAlertController Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/SliderAlertController" class="dashAnchor"></a>
+    <a title="SliderAlertController Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">SDEDownloadManager Docs</a> (100% documented)</p>
+        <p class="header-right"><a href="https://github.com/seedante/SDEDownloadManager/"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fseedante%2Egithub%2Eio%2FSDEDownloadManager%2Fdocsets%2FSDEDownloadManager%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">SDEDownloadManager Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        SliderAlertController Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/DownloadListController.html">DownloadListController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DownloadTrackerCell.html">DownloadTrackerCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SDEDownloadManager.html">SDEDownloadManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SDETableViewController.html">SDETableViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SliderAlertController.html">SliderAlertController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/URLPickerController.html">URLPickerController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/AccessoryButtonStyle.html">AccessoryButtonStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BarButtonAppearanceStyle.html">BarButtonAppearanceStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CellImageViewStyle.html">CellImageViewStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ComparisonOrder.html">ComparisonOrder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ComparisonType.html">ComparisonType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DeleteMode.html">DeleteMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DownloadState.html">DownloadState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ListContent.html">ListContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/NavigationBarAction.html">NavigationBarAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ThumbnailShape.html">ThumbnailShape</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ToolBarAction.html">ToolBarAction</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/URLSessionTask.html">URLSessionTask</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/AccessoryButtonDelegate.html">AccessoryButtonDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DownloadActivityTrackable.html">DownloadActivityTrackable</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>SliderAlertController</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">SliderAlertController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">UIViewControllerTransitioningDelegate</span><span class="p">,</span> <span class="kt">UIViewControllerAnimatedTransitioning</span></code></pre>
+
+                </div>
+              </div>
+            <p>A UIViewController subclass like UIAlertController to display a slider.
+<img src="https://raw.githubusercontent.com/seedante/iOS-Note/master/SDEDownloadManager/PresentSliderAlertController.png" alt=""></p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Initializer"></a>
+                <a name="//apple_ref/swift/Section/Initializer" class="dashAnchor"></a>
+                <a href="#/Initializer">
+                  <h3 class="section-name">Initializer</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@SDEDownloadManager@objc(cs)SliderAlertController(im)initWithTitle:message:minimumValue:maximumValue:initialValue:confirmTitle:confirmClosure:"></a>
+                    <a name="//apple_ref/swift/Method/init(title:message:minimumValue:maximumValue:initialValue:confirmTitle:confirmClosure:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SDEDownloadManager@objc(cs)SliderAlertController(im)initWithTitle:message:minimumValue:maximumValue:initialValue:confirmTitle:confirmClosure:">init(title:message:minimumValue:maximumValue:initialValue:confirmTitle:confirmClosure:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>SliderAlertController&rsquo;s designated init method.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">title</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">minimumValue</span><span class="p">:</span> <span class="kt">Float</span><span class="p">,</span> <span class="nv">maximumValue</span><span class="p">:</span> <span class="kt">Float</span><span class="p">,</span> <span class="nv">initialValue</span><span class="p">:</span> <span class="kt">Float</span><span class="p">,</span> <span class="nv">confirmTitle</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">confirmClosure</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="n">_</span> <span class="nv">sliderValue</span><span class="p">:</span> <span class="kt">Float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>title</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The title of the slider view.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Additional information for the slider view. The default value is nil.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>minimumValue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The slider&rsquo;s minimum value. If this value is not small than maximumValue, 
+this value will be 0 and slider&rsquo;s maximum value will be 20.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>maximumValue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The slider&rsquo;s maximum value. If this value is not larger than minimumValue, 
+this value will be 20 and slider&rsquo;s minimum value will be 0.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>initialValue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The slider&rsquo;s initial value.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>confirmTitle</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The custom title for confirm button. The default is nil. If this value is nil,
+the title of confirm button is <q>Confirm</q>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>confirmClosure</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A closure to execute after user touch confirm button.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>sliderValue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The current value of slider. If <code>allowsDecimal == false</code>, its decimal will be moved and just <code>x.0</code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@SDEDownloadManager@objc(cs)SliderAlertController(im)initWithCoder:"></a>
+                    <a name="//apple_ref/swift/Method/init(coder:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SDEDownloadManager@objc(cs)SliderAlertController(im)initWithCoder:">init(coder:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Not implemented. Don&rsquo;t init from storyboard/nib file.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">required</span> <span class="kd">public</span> <span class="nf">init</span><span class="p">?(</span><span class="n">coder</span> <span class="nv">aDecoder</span><span class="p">:</span> <span class="kt">NSCoder</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Custom%20Options"></a>
+                <a name="//apple_ref/swift/Section/Custom Options" class="dashAnchor"></a>
+                <a href="#/Custom%20Options">
+                  <h3 class="section-name">Custom Options</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@SDEDownloadManager@objc(cs)SliderAlertController(py)allowsDecimal"></a>
+                    <a name="//apple_ref/swift/Property/allowsDecimal" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SDEDownloadManager@objc(cs)SliderAlertController(py)allowsDecimal">allowsDecimal</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A Boolean value that decides whether remove slider value&rsquo;s decimal part in view and confirmClosure.
+The default value is false.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">allowsDecimal</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@SDEDownloadManager@objc(cs)SliderAlertController(py)floatToSymbolMap"></a>
+                    <a name="//apple_ref/swift/Property/floatToSymbolMap" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SDEDownloadManager@objc(cs)SliderAlertController(py)floatToSymbolMap">floatToSymbolMap</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A Dictionary which store the symbol to replace slider value to display on the slider block.
+For example: I want to express no limit when it&rsquo;s 0, set a symbol: <code>floatToSymbolMap[0] = &quot;∞&quot;</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">floatToSymbolMap</span><span class="p">:</span> <span class="kt">Dictionary</span><span class="o">&lt;</span><span class="kt">Float</span><span class="p">,</span> <span class="kt">String</span><span class="o">&gt;</span> <span class="o">=</span> <span class="p">[:]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Lifecycle"></a>
+                <a name="//apple_ref/swift/Section/Lifecycle" class="dashAnchor"></a>
+                <a href="#/Lifecycle">
+                  <h3 class="section-name">Lifecycle</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@SDEDownloadManager@objc(cs)SliderAlertController(im)viewDidLoad"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLoad()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SDEDownloadManager@objc(cs)SliderAlertController(im)viewDidLoad">viewDidLoad()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This method is called after the controller has loaded its view hierarchy into memory.
+But when the controller load its view hierarchy? Before it presents or access any view
+in the view hierarchy if controller isn&rsquo;t presented yet. Called only once.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@SDEDownloadManager@objc(cs)SliderAlertController(im)viewWillAppear:"></a>
+                    <a name="//apple_ref/swift/Method/viewWillAppear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SDEDownloadManager@objc(cs)SliderAlertController(im)viewWillAppear:">viewWillAppear(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called every time the view controller is about to be presented. Layout is not finished yet.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">viewWillAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@SDEDownloadManager@objc(cs)SliderAlertController(im)viewWillLayoutSubviews"></a>
+                    <a name="//apple_ref/swift/Method/viewWillLayoutSubviews()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SDEDownloadManager@objc(cs)SliderAlertController(im)viewWillLayoutSubviews">viewWillLayoutSubviews()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Configure layout of subViews.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">viewWillLayoutSubviews</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@SDEDownloadManager@objc(cs)SliderAlertController(im)viewDidAppear:"></a>
+                    <a name="//apple_ref/swift/Method/viewDidAppear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SDEDownloadManager@objc(cs)SliderAlertController(im)viewDidAppear:">viewDidAppear(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called every time the view controller is presented.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">viewDidAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/UIViewControllerTransitioningDelegate"></a>
+                <a name="//apple_ref/swift/Section/UIViewControllerTransitioningDelegate" class="dashAnchor"></a>
+                <a href="#/UIViewControllerTransitioningDelegate">
+                  <h3 class="section-name">UIViewControllerTransitioningDelegate</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@SDEDownloadManager@objc(cs)SliderAlertController(im)animationControllerForPresentedController:presentingController:sourceController:"></a>
+                    <a name="//apple_ref/swift/Method/animationController(forPresented:presenting:source:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SDEDownloadManager@objc(cs)SliderAlertController(im)animationControllerForPresentedController:presentingController:sourceController:">animationController(forPresented:presenting:source:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Return animation delegate to provide presentation animation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">animationController</span><span class="p">(</span><span class="n">forPresented</span> <span class="nv">presented</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="nv">presenting</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="nv">source</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIViewControllerAnimatedTransitioning</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@SDEDownloadManager@objc(cs)SliderAlertController(im)animationControllerForDismissedController:"></a>
+                    <a name="//apple_ref/swift/Method/animationController(forDismissed:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SDEDownloadManager@objc(cs)SliderAlertController(im)animationControllerForDismissedController:">animationController(forDismissed:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Return animation delegate to provide dismiss animation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">animationController</span><span class="p">(</span><span class="n">forDismissed</span> <span class="nv">dismissed</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIViewControllerAnimatedTransitioning</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/UIViewControllerAnimatedTransitioning"></a>
+                <a name="//apple_ref/swift/Section/UIViewControllerAnimatedTransitioning" class="dashAnchor"></a>
+                <a href="#/UIViewControllerAnimatedTransitioning">
+                  <h3 class="section-name">UIViewControllerAnimatedTransitioning</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@SDEDownloadManager@objc(cs)SliderAlertController(im)transitionDuration:"></a>
+                    <a name="//apple_ref/swift/Method/transitionDuration(using:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SDEDownloadManager@objc(cs)SliderAlertController(im)transitionDuration:">transitionDuration(using:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Time of transition animation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">transitionDuration</span><span class="p">(</span><span class="n">using</span> <span class="nv">transitionContext</span><span class="p">:</span> <span class="kt">UIViewControllerContextTransitioning</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">TimeInterval</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@SDEDownloadManager@objc(cs)SliderAlertController(im)animateTransition:"></a>
+                    <a name="//apple_ref/swift/Method/animateTransition(using:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SDEDownloadManager@objc(cs)SliderAlertController(im)animateTransition:">animateTransition(using:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Commit transition animation here.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">animateTransition</span><span class="p">(</span><span class="n">using</span> <span class="nv">transitionContext</span><span class="p">:</span> <span class="kt">UIViewControllerContextTransitioning</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="https://github.com/seedante/SDEDownloadManager" target="_blank" rel="external">seedante</a>. All rights reserved. (Last updated: 2018-02-16)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

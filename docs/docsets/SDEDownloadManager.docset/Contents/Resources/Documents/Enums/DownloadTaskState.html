@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DownloadTaskState Enum Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Enum/DownloadTaskState" class="dashAnchor"></a>
+    <a title="DownloadTaskState Enum Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">SDEDownloadManager Docs</a> (100% documented)</p>
+        <p class="header-right"><a href="https://github.com/seedante/SDEDownloadManager/"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fseedante%2Egithub%2Eio%2FSDEDownloadManager%2Fdocsets%2FSDEDownloadManager%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">SDEDownloadManager Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        DownloadTaskState Enum Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/DownloadListController.html">DownloadListController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DownloadTrackerCell.html">DownloadTrackerCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SDEDownloadManager.html">SDEDownloadManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SDETableViewController.html">SDETableViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SliderAlertController.html">SliderAlertController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/URLPickerController.html">URLPickerController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/AccessoryButtonStyle.html">AccessoryButtonStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BarButtonAppearanceStyle.html">BarButtonAppearanceStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ComparisonOrder.html">ComparisonOrder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ComparisonType.html">ComparisonType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DeleteMode.html">DeleteMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DownloadTaskState.html">DownloadTaskState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ImageViewStyle.html">ImageViewStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ListContent.html">ListContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/NavigationBarActionEnum.html">NavigationBarActionEnum</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ThumbnailShape.html">ThumbnailShape</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ToolBarActionEnum.html">ToolBarActionEnum</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/URLSessionTask.html">URLSessionTask</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/AccessoryButtonDelegate.html">AccessoryButtonDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DownloadActivityTrackable.html">DownloadActivityTrackable</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>DownloadTaskState</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">@objc</span> <span class="kd">public</span> <span class="kd">enum</span> <span class="kt">DownloadTaskState</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                </div>
+              </div>
+            <p>The state of download task in <code><a href="../Classes/SDEDownloadManager.html">SDEDownloadManager</a></code>.</p>
+
+<p>case <code>notInList</code>:   The URL which you query is not in the download list and trash. I set this value
+to make the framework compatible with Objective-C. Because <code>Int?</code> can&rsquo;t be presented in Objective-C.</p>
+
+<p>case <code>pending</code>:     Not downloading and it&rsquo;s sure that task has no resume data.</p>
+
+<p>case <code>downloading</code>: Downloading.</p>
+
+<p>case <code>paused</code>:      Download is paused.</p>
+
+<p>case <code>stopped</code>:     Not downloading and it&rsquo;s sure that task has resume data to continue download.</p>
+
+<p>case <code>finished</code>:    File is downloaded successfully.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@SDEDownloadManager@E@DownloadTaskState@DownloadTaskStateNotInList"></a>
+                    <a name="//apple_ref/swift/Element/notInList" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SDEDownloadManager@E@DownloadTaskState@DownloadTaskStateNotInList">notInList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The URL which you query is not in <code>downloadList</code> and not in <code>toDeleteList</code>. I set this value
+to make the framework compatible with Objective-C. Because <code>Int?</code> can&rsquo;t be presented in
+Objective-C.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="n">notInList</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@SDEDownloadManager@E@DownloadTaskState@DownloadTaskStatePending"></a>
+                    <a name="//apple_ref/swift/Element/pending" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SDEDownloadManager@E@DownloadTaskState@DownloadTaskStatePending">pending</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Not downloading and it&rsquo;s sure that task has no resume data.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="n">pending</span> <span class="o">=</span> <span class="mi">0</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@SDEDownloadManager@E@DownloadTaskState@DownloadTaskStateDownloading"></a>
+                    <a name="//apple_ref/swift/Element/downloading" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SDEDownloadManager@E@DownloadTaskState@DownloadTaskStateDownloading">downloading</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Downloading.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="n">downloading</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@SDEDownloadManager@E@DownloadTaskState@DownloadTaskStatePaused"></a>
+                    <a name="//apple_ref/swift/Element/paused" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SDEDownloadManager@E@DownloadTaskState@DownloadTaskStatePaused">paused</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Download is paused.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="n">paused</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@SDEDownloadManager@E@DownloadTaskState@DownloadTaskStateStopped"></a>
+                    <a name="//apple_ref/swift/Element/stopped" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SDEDownloadManager@E@DownloadTaskState@DownloadTaskStateStopped">stopped</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Not downloading and it&rsquo;s sure that task has resume data to continue download.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="n">stopped</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@SDEDownloadManager@E@DownloadTaskState@DownloadTaskStateFinished"></a>
+                    <a name="//apple_ref/swift/Element/finished" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SDEDownloadManager@E@DownloadTaskState@DownloadTaskStateFinished">finished</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>File is downloaded successfully.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="n">finished</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18SDEDownloadManager17DownloadTaskStateO11descriptionSSv"></a>
+                    <a name="//apple_ref/swift/Property/description" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18SDEDownloadManager17DownloadTaskStateO11descriptionSSv">description</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>State description.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">description</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="https://github.com/seedante/SDEDownloadManager" target="_blank" rel="external">seedante</a>. All rights reserved. (Last updated: 2018-02-12)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

@@ -1,0 +1,314 @@
+/* 
+  Localizable.strings
+  SDEDownloadManager
+
+  Created by seedante on 8/11/17.
+  Copyright © 2017 seedante. All rights reserved.
+*/
+
+
+/* Alert Message: Note to Set MaxDownloadCount */
+"(No limit when value is 0)" = "(No limit when value is 0)";
+
+/* PlaceHolder Section Title for Empty DownloadList in Manual Mode */
+"Add New Section" = "Add New Section";
+
+/* Alert Title: Adjust MaxDownloadCount */
+"Adjust Max Download Count" = "Adjust Max Download Count";
+
+/* AddTime Descending Order */
+"AddTime Order: New -> Old" = "New -> Old";
+
+/* AddTime Ascending Order */
+"AddTime Order: Old -> New" = "Old -> New";
+
+/* Switch Sort Mode: Predefined to Manual */
+"All files will be integrated into one section." = "All files will be integrated into one section.";
+
+/* Ascending Order */
+"Ascending" = "Ascending";
+
+/* Adjust MaxDownloadCount */
+"Button.Adjust" = "Adjust";
+
+/* Cancel Action */
+"Button.Cancel" = "Cancel";
+
+/* Confirm Action */
+"Button.Confirm" = "Confirm";
+
+/* Delete Task and Related File */
+"Button.Delete" = "Delete";
+
+/* Delete All Tasks */
+"Button.DeleteAll" = "DeleteAll";
+
+/* Exit Edit Mode */
+"Button.Done" = "Done";
+
+/* Enter Edit Mode */
+"Button.Edit" = "Edit";
+
+/* Clean All Deleted Tasks in the Trash */
+"Button.Empty" = "Empty";
+
+/* Task is Finished */
+"Button.Finished" = "Finished";
+
+/* Pause Download */
+"Button.Pause" = "Pause";
+
+/* Pause All Downloading Tasks */
+"Button.PauseAll" = "PauseAll";
+
+/* Pick Selected URLs */
+"Button.Pick" = "Pick";
+
+/* Change File Display Name */
+"Button.Rename" = "Rename";
+
+/* Redownload the File */
+"Button.Restart" = "Restart";
+
+/* Put Deleted Task Back to Download List */
+"Button.Restore" = "Restore";
+
+/* Resume Download */
+"Button.Resume" = "Resume";
+
+/* Resume All Unfinished Tasks */
+"Button.ResumeAll" = "ResumeAll";
+
+/* Select All Cells */
+"Button.SelectAll" = "SelectAll";
+
+/* Sort Download List */
+"Button.Sort" = "Sort";
+
+/* Start Download */
+"Button.Start" = "Start";
+
+/* Stop Download */
+"Button.Stop" = "Stop";
+
+/* Stop All Download */
+"Button.StopAll" = "StopAll";
+
+/* Deselect All Cells */
+"Button.UnselectAll" = "UnselectAll";
+
+/* Alert Title: Empty Trash */
+"Empty Trash?" = "Empty Trash?";
+
+/* Alert Action Title: Cancel to Restore a Task and Return */
+"Cancel and Return" = "Cancel and Return";
+
+/* Alert Title: Delete All Tasks */
+"Delete All Files?" = "Delete All Files?";
+
+/* Alert Title: deleteMode == .optional */
+"Delete File and Record Both" = "Delete File and Record Both";
+
+/* Alert Title: deleteMode == .optional */
+"Delete File Only" = "Delete File Only";
+
+/* Alert Title: Delete Multiple Tasks */
+"Delete Selected %d Files?" = "Delete Selected %d Files?";
+
+/* Alert Title: Delete Single Task */
+"Delete This File?" = "Delete This File?";
+
+/* Delete BarButtonItem Action */
+"Delete(%d)" = "Delete(%d)";
+
+/* Descending Order */
+"Descending" = "Descending";
+
+/* FileName Ascending Order */
+"FileName Order: A -> Z" = "A -> Z";
+
+/* FileName Descending Order */
+"FileName Order: Z -> A" = "Z -> A";
+
+/* FileSize Descending Order */
+"FileSize Order: Big -> Small" = "Big -> Small";
+
+/* FileSize Ascending Order */
+"FileSize Order: Small -> Big" = "Small -> Big";
+
+/* Audio File Type */
+"FileType.Audio" = "Audio";
+
+/* Document File Type */
+"FileType.Document" = "Document";
+
+/* Image File Type */
+"FileType.Image" = "Image";
+
+/* Other File Type */
+"FileType.Other" = "Other";
+
+/* Video File Type */
+"FileType.Video" = "Video";
+
+/* PlaceHolderTitle */
+"HeaderViewTitle.PlaceHolderTitle" = "Title";
+
+/* HeaderView Title for AddTime */
+"HeaderViewTitle.Sorted by Add Time" = "Sorted by Add Time";
+
+/* HeaderView Title for FileName */
+"HeaderViewTitle.Sorted by File Name" = "Sorted by File Name";
+
+/* HeaderView Title for FileSize */
+"HeaderViewTitle.Sorted by File Size" = "Sorted by File Size";
+
+/* HeaderView Title for ToDelete Tasks */
+"HeaderViewTitle.Trash" = "Trash";
+
+/* HeaderView Title for Unfinished Tasks */
+"HeaderViewTitle.UnfinishedList" = "UnfinishedList";
+
+/* FileName Ascending Order in Section */
+"Inner Order: FileName: A -> Z" = "FileName: A -> Z";
+
+/* FileName Descending Order in Section */
+"Inner Order: FileName: Z -> A" = "FileName: Z -> A";
+
+/* Alert Title: Input Section Title */
+"Input Title for The Section" = "Input Title for The Section";
+
+/* Switch Sort Mode: Manual to Predefined */
+"It will lose all section titles." = "It will lose all section titles.";
+
+/* Detele Task Alert Message: deleteMode == .optional */
+"Just Delete File" = "Just Delete File";
+
+/* Detele Task Alert Message: deleteMode == .optional */
+"Keep the Record" = "Keep the Record";
+
+/* Alert Title: Move Multiple Task to Trash */
+"Move Selected %d Files to Trash?" = "Move Selected %d Files to Trash?";
+
+/* Alert Title: deleteMode == .optional */
+"Move to Trash" = "Move to Trash";
+
+/* Alert Title: Move Single Task to Trash */
+"Move to Trash?" = "Move to Trash?";
+
+/* Alert Title: Delete All Tasks */
+"Move All Files to Trash?" = "Move All Files to Trash?";
+
+/* URL is not in the download list */
+"NotInList" = "NotInList";
+
+/* Pause BarButtonItem Action */
+"Pause(%d)" = "Pause(%d)";
+
+/* Processing Temp File */
+"Processing file..." = "Processing file...";
+
+/* Alert Title: Restart Task */
+"Redownload the File?" = "Redownload the File?";
+
+/* Content for Cell in Restore Location */
+"Restore to Here!" = "Restore to Here!";
+
+/* Alert Title: ToDelete Task Restoration */
+"Restore to Original Location?" = "Restore to Original Location?";
+
+/* Alert Title: Restore a Task */
+"Restore to Highlighted Location?" = "Restore to Highlighted Location?";
+
+/* Alert Title: Resume All Tasks */
+"Resume All Tasks?" = "Resume All Tasks?";
+
+/* Alert Title: Resume Multiple Tasks */
+"Resume Selected Tasks?" = "Resume Selected Tasks?";
+
+/* Alert Title: Resume Single Task */
+"Resume the Task?" = "Resume the Task?";
+
+/* Resume BarButtonItem Action */
+"Resume(%d)" = "Resume(%d)";
+
+/* PlaceHolder for UITextField to Input a Section Title */
+"Section Title" = "Section Title";
+
+/* SortOrder Header Title */
+"SortOrder" = "SortOrder";
+
+/* FileType SortOrder Header Title */
+"SortOrderInGroup" = "SortOrderInGroup";
+
+/* SortType Header Title */
+"SortType" = "SortType";
+
+/* Sort by Add Time */
+"SortType.AddTime" = "AddTime";
+
+/* Sort by File Name */
+"SortType.FileName" = "FileName";
+
+/* Sort by File Size */
+"SortType.FileSize" = "FileSize";
+
+/* Sort by File Type */
+"SortType.FileType" = "FileType";
+
+/* Switch to Manual Mode */
+"SortType.Manual" = "Manual";
+
+/* Alert Title: Stop All Tasks */
+"Stop All Tasks?" = "Stop All Tasks?";
+
+/* Alert Title: Stop Multiple Tasks */
+"Stop Selected Tasks?" = "Stop Selected Tasks?";
+
+/* Alert Title: Stop Single Task */
+"Stop the Task?" = "Stop the Task?";
+
+/* Stop BarButtonItem Action */
+"Stop(%d)" = "Stop(%d)";
+
+/* Alert Message: deleteMode == .onlyFile */
+"The record will be retained." = "The record will be retained.";
+
+/* HeaderView Title for AddTime */
+"Time.Future" = "Future";
+
+/* HeaderView Title for AddTime */
+"Time.Today" = "Today";
+
+/* HeaderView Title for AddTime */
+"Time.Yesterday" = "Yesterday";
+
+/* HeaderView Title for AddTime */
+"Time.Last 7 Days" = "Last 7 Days";
+
+/* HeaderView Title for AddTime */
+"Time.Last 30 Days" = "Last 30 Days";
+
+/* HeaderView Title for AddTime */
+"Time.Older" = "Older";
+
+/* Alert Title: Change File Display Name */
+"Update File Name" = "Update File Name";
+
+/* Alert Title: Update Section Title */
+"Update Section Title" = "Update Section Title";
+
+/* HeaderView Title for FileSize */
+"Unknown Size" = "Unknown Size";
+
+/* HeaderView Title for FileSize */
+"0 ~ 1 MB" = "0 ~ 1 MB";
+
+/* HeaderView Title for FileSize */
+"1 MB ~ 100 MB" = "1 MB ~ 100 MB";
+
+/* HeaderView Title for FileSize */
+"100 MB ~ 1 GB" = "100 MB ~ 1 GB";
+
+/* HeaderView Title for FileSize */
+"Larger Than 1 GB" = "Larger Than 1 GB";

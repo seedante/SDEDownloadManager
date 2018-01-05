@@ -1,0 +1,313 @@
+/* 
+  Localizable.strings
+  SDEDownloadManager
+
+  Created by seedante on 8/11/17.
+  Copyright © 2017 seedante. All rights reserved.
+*/
+
+/* Alert Message: Note to Set MaxDownloadCount */
+"(No limit when value is 0)" = "(值为0时无限制)";
+
+/* PlaceHolder Section Title for Empty DownloadList in Manual Mode */
+"Add New Section" = "添加新分组";
+
+/* Alert Title: Adjust MaxDownloadCount */
+"Adjust Max Download Count" = "调整最大下载量";
+
+/* AddTime Descending Order */
+"AddTime Order: New -> Old" = "新 -> 旧";
+
+/* AddTime Ascending Order */
+"AddTime Order: Old -> New" = "旧 -> 新";
+
+/* Switch Sort Mode: Predefined to Manual */
+"All files will be integrated into one section." = "所有文件将会整合到同一组。";
+
+/* Ascending Order */
+"Ascending" = "升序";
+
+/* Adjust MaxDownloadCount */
+"Button.Adjust" = "调整";
+
+/* Cancel Action */
+"Button.Cancel" = "取消";
+
+/* Confirm Action */
+"Button.Confirm" = "确定";
+
+/* Delete Task and Related File */
+"Button.Delete" = "删除";
+
+/* Delete All Tasks */
+"Button.DeleteAll" = "全部删除";
+
+/* Exit Edit Mode */
+"Button.Done" = "结束";
+
+/* Enter Edit Mode */
+"Button.Edit" = "编辑";
+
+/* Clean All Deleted Tasks in the Trash */
+"Button.Empty" = "清空";
+
+/* Task is Finished */
+"Button.Finished" = "完成";
+
+/* Pause Download */
+"Button.Pause" = "暂停";
+
+/* Pause All Downloading Tasks */
+"Button.PauseAll" = "全部暂停";
+
+/* Pick Selected URLs */
+"Button.Pick" = "选取";
+
+/* Change File Display Name */
+"Button.Rename" = "重命名";
+
+/* Redownload the File */
+"Button.Restart" = "重新下载";
+
+/* Put Deleted Task Back to Download List */
+"Button.Restore" = "恢复";
+
+/* Resume Download */
+"Button.Resume" = "继续";
+
+/* Resume All Unfinished Tasks */
+"Button.ResumeAll" = "全部开始";
+
+/* Select All Cells */
+"Button.SelectAll" = "全选";
+
+/* Sort Download List */
+"Button.Sort" = "排序";
+
+/* Start Download */
+"Button.Start" = "下载";
+
+/* Stop Download */
+"Button.Stop" = "停止";
+
+/* Stop All Download */
+"Button.StopAll" = "全部停止";
+
+/* Deselect All Cells */
+"Button.UnselectAll" = "取消全选";
+
+/* Alert Action Title: Cancel to Restore a Task and Return */
+"Cancel and Return" = "取消并返回";
+
+/* Alert Title: Delete All Tasks */
+"Delete All Files?" = "删除全部文件?";
+
+/* Alert Title: deleteMode == .optional */
+"Delete File and Record Both" = "文件和记录都删除";
+
+/* Alert Title: deleteMode == .optional */
+"Delete File Only" = "仅删除文件";
+
+/* Alert Title: Delete Multiple Tasks */
+"Delete Selected %d Files?" = "删除选中的%d个文件?";
+
+/* Alert Title: Delete Single Task */
+"Delete This File?" = "删除该文件?";
+
+/* Delete BarButtonItem Action */
+"Delete(%d)" = "删除(%d)";
+
+/* Descending Order */
+"Descending" = "降序";
+
+/* Alert Title: Empty Trash */
+"Empty Trash?" = "清空回收站?";
+
+/* FileName Ascending Order */
+"FileName Order: A -> Z" = "A -> Z";
+
+/* FileName Descending Order */
+"FileName Order: Z -> A" = "Z -> A";
+
+/* FileSize Descending Order */
+"FileSize Order: Big -> Small" = "大 -> 小";
+
+/* FileSize Ascending Order */
+"FileSize Order: Small -> Big" = "小 -> 大";
+
+/* Audio File Type */
+"FileType.Audio" = "音频";
+
+/* Document File Type */
+"FileType.Document" = "文档";
+
+/* Image File Type */
+"FileType.Image" = "图像";
+
+/* Other File Type */
+"FileType.Other" = "其它";
+
+/* Video File Type */
+"FileType.Video" = "视频";
+
+/* PlaceHolderTitle */
+"HeaderViewTitle.PlaceHolderTitle" = "标题";
+
+/* HeaderView Title for AddTime */
+"HeaderViewTitle.Sorted by Add Time" = "按添加时间排列";
+
+/* HeaderView Title for FileName */
+"HeaderViewTitle.Sorted by File Name" = "按文件名排列";
+
+/* HeaderView Title for FileSize */
+"HeaderViewTitle.Sorted by File Size" = "按文件大小排列";
+
+/* HeaderView Title for ToDelete Tasks */
+"HeaderViewTitle.Trash" = "回收站";
+
+/* HeaderView Title for Unfinished Tasks */
+"HeaderViewTitle.UnfinishedList" = "未完成列表";
+
+/* FileName Ascending Order in Section */
+"Inner Order: FileName: A -> Z" = "文件名: A -> Z";
+
+/* FileName Descending Order in Section */
+"Inner Order: FileName: Z -> A" = "文件名: Z -> A";
+
+/* Alert Title: Input Section Title */
+"Input Title for The Section" = "输入分组标题";
+
+/* Switch Sort Mode: Manual to Predefined */
+"It will lose all section titles." = "这样做将会丢失所有标题。";
+
+/* Detele Task Alert Message: deleteMode == .optional */
+"Just Delete File" = "仅删除文件";
+
+/* Detele Task Alert Message: deleteMode == .optional */
+"Keep the Record" = "保留记录";
+
+/* Alert Title: Move Multiple Task to Trash */
+"Move Selected %d Files to Trash?" = "移动选中的%d个文件到回收站?";
+
+/* Alert Title: deleteMode == .optional */
+"Move to Trash" = "移到回收站";
+
+/* Alert Title: Move Single Task to Trash */
+"Move to Trash?" = "移到回收站?";
+
+/* Alert Title: Delete All Tasks */
+"Move All Files to Trash?" = "全部移到回收站?";
+
+/* URL is not in the download list */
+"NotInList" = "NotInList";
+
+/* Pause BarButtonItem Action */
+"Pause(%d)" = "暂停(%d)";
+
+/* Processing Temp File */
+"Processing file..." = "处理文件中...";
+
+/* Alert Title: Restart Task */
+"Redownload the File?" = "重新下载该文件?";
+
+/* Content for Cell in Restore Location */
+"Restore to Here!" = "恢复到这里！";
+
+/* Alert Title: ToDelete Task Restoration */
+"Restore to Original Location?" = "恢复到原来的位置?";
+
+/* Alert Title: Restore a Task */
+"Restore to Highlighted Location?" = "恢复到高亮位置?";
+
+/* Alert Title: Resume All Tasks */
+"Resume All Tasks?" = "开始全部任务?";
+
+/* Alert Title: Resume Multiple Tasks */
+"Resume Selected Tasks?" = "开始选中的任务?";
+
+/* Alert Title: Resume Single Task */
+"Resume the Task?" = "开始该任务?";
+
+/* Resume BarButtonItem Action */
+"Resume(%d)" = "继续(%d)";
+
+/* PlaceHolder for UITextField to Input a Section Title */
+"Section Title" = "标题";
+
+/* SortOrder Header Title */
+"SortOrder" = "顺序";
+
+/* FileType SortOrder Header Title */
+"SortOrderInGroup" = "段内顺序";
+
+/* SortType Header Title */
+"SortType" = "排列方式";
+
+/* Sort by Add Time */
+"SortType.AddTime" = "添加时间";
+
+/* Sort by File Name */
+"SortType.FileName" = "文件名称";
+
+/* Sort by File Size */
+"SortType.FileSize" = "文件大小";
+
+/* Sort by File Type */
+"SortType.FileType" = "文件类型";
+
+/* Switch to Manual Mode */
+"SortType.Manual" = "手动调整";
+
+/* Alert Title: Stop All Tasks */
+"Stop All Tasks?" = "停止全部任务?";
+
+/* Alert Title: Stop Multiple Tasks */
+"Stop Selected Tasks?" = "停止选中的任务?";
+
+/* Alert Title: Stop Single Task */
+"Stop the Task?" = "停止该任务?";
+
+/* Stop BarButtonItem Action */
+"Stop(%d)" = "停止(%d)";
+
+/* Alert Message: deleteMode == .onlyFile */
+"The record will be retained." = "任务记录会被保留.";
+
+/* HeaderView Title for AddTime */
+"Time.Future" = "未来的";
+
+/* HeaderView Title for AddTime */
+"Time.Today" = "今天";
+
+/* HeaderView Title for AddTime */
+"Time.Yesterday" = "昨天";
+
+/* HeaderView Title for AddTime */
+"Time.Last 7 Days" = "过去一周";
+
+/* HeaderView Title for AddTime */
+"Time.Last 30 Days" = "过去30天";
+
+/* HeaderView Title for AddTime */
+"Time.Older" = "更早的";
+
+/* Alert Title: Change File Display Name */
+"Update File Name" = "更新文件名";
+
+/* Alert Title: Update Section Title */
+"Update Section Title" = "更新标题";
+
+/* HeaderView Title for FileSize */
+"Unknown Size" = "大小未知";
+
+/* HeaderView Title for FileSize */
+"0 ~ 1 MB" = "0 ~ 1 MB";
+
+/* HeaderView Title for FileSize */
+"1 MB ~ 100 MB" = "1 MB ~ 100 MB";
+
+/* HeaderView Title for FileSize */
+"100 MB ~ 1 GB" = "100 MB ~ 1 GB";
+
+/* HeaderView Title for FileSize */
+"Larger Than 1 GB" = "大于 1 GB";
